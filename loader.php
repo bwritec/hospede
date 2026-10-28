@@ -12,3 +12,7 @@
      */
     include __DIR__ . "/config.php";
 
+    /**
+     * Método env.
+     */
+    include __DIR__ . "/src/env/env.php";

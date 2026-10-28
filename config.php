@@ -15,14 +15,15 @@
 
     /**
      * Nome do site.
-     * 
-     * env("name");
      */
     define("PROVIDER_NAME", "Hospede");
 
     /**
      * Url do site.
-     * 
-     * env("url");
      */
     define("PROVIDER_URL", "http://hospede.com.br");
+
+    /**
+     * Idioma do site.
+     */
+    define("PROVIDER_LANGUAGE", "pt-br");
