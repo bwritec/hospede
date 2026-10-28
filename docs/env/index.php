@@ -97,7 +97,105 @@
     <div class="container">
         <div class="row">
             <div class="col col-12">
-                
+                <h5>
+                    <span class="badge text-bg-secondary">
+                        env();
+                    </span>
+                </h5>
+
+                <p>
+                    Essa função busca e devolve uma variavel de
+                    ambiente de forma global.
+                </p>
+
+                <code class="language-php">env($attribute);</code>
+
+                <p>
+                    Para obter um valor você deve informar uma string
+                    com valor de atributo no parametro <code class="language-php">$attribute</code>.
+                    abaixo tem a lista de atributos disponível.
+                </p>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Constante</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                name
+                            </td>
+
+                            <td>
+                                PROVIDER_NAME
+                            </td>
+
+                            <td>
+                                O nome do provedor de hospedagem. Caso você
+                                tenha seu proprio provedor de hospedagem,
+                                você pode obter o nome dele com esse
+                                parametro.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                url
+                            </td>
+
+                            <td>
+                                PROVIDER_URL
+                            </td>
+
+                            <td>
+                                O URL do provedor de hospedagem. Para caso
+                                você tenha seu proprio provedor de hospedagem,
+                                você pode obter a url dele com esse parametro.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                lang
+                            </td>
+
+                            <td>
+                                PROVIDER_LANGUAGE
+                            </td>
+
+                            <td>
+                                O idioma do site, esse valor é global. Más
+                                você deve saber sé o software tem suporte para
+                                o idioma que você escolheu. Caso contrario, só
+                                vai afetar a saída HTML.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>
+                    Exemplo
+                </h3>
+
+                <p>
+                    Vamos obter o nome do website.
+                </p>
+
+                <code class="language-php">echo "Nome do site: ". env("name");</code>
+
+                <p>
+                    Caso o valor da constante PROVIDER_NAME em config.php sejá
+                    `Hospede`. O resultado sera:
+
+                    <br>
+                    <code class="language-php">Nome do site: Hospede</code>
+                </p>
+
             </div>
         </div>
     </div>
