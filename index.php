@@ -25,14 +25,16 @@
     <!--
       - Estilos.
      -->
-    <link rel="stylesheet" type="text/css" href="/dist/libs/bootstrap/dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/dist/libs/bootstrap/dist/css/bootstrap.css"> -->
     <link rel="stylesheet" type="text/css" href="/dist/libs/fontawesome-free/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/dist/css/framework.css">
     <link rel="stylesheet" type="text/css" href="/dist/css/style.css">
 
     <!--
       - Scripts.
      -->
-    <script type="text/javascript" src="/dist/libs/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!-- <script type="text/javascript" src="/dist/libs/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
     <script type="text/javascript" src="/dist/libs/fontawesome-free/js/all.js"></script>
     <script type="text/javascript" src="/dist/libs/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="/dist/libs/jquery-ui/dist/jquery-ui.js"></script>
