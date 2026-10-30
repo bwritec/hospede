@@ -27,6 +27,7 @@
      -->
     <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/framework/reset.css">
     <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/framework/grid.css">
+    <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/framework/panel.css">
 
     <!--
       - Icons.
@@ -50,6 +51,16 @@
 
 </head>
 <body>
+
+    <div class="panel">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container">
