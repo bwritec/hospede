@@ -23,12 +23,16 @@
     <title><?= env("name") ?> - Página inicial</title>
 
     <!--
+      - Framework.
+     -->
+    <link rel="stylesheet" type="text/css" href="/dist/framework/reset.css">
+    <link rel="stylesheet" type="text/css" href="/dist/framework/grid.css">
+
+    <!--
       - Estilos.
      -->
     <!-- <link rel="stylesheet" type="text/css" href="/dist/libs/bootstrap/dist/css/bootstrap.css"> -->
     <link rel="stylesheet" type="text/css" href="/dist/libs/fontawesome-free/css/all.css">
-    <link rel="stylesheet" type="text/css" href="/dist/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/dist/css/framework.css">
     <link rel="stylesheet" type="text/css" href="/dist/css/style.css">
 
     <!--
