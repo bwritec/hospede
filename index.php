@@ -25,28 +25,28 @@
     <!--
       - Framework.
      -->
-    <link rel="stylesheet" type="text/css" href="/dist/framework/reset.css">
-    <link rel="stylesheet" type="text/css" href="/dist/framework/grid.css">
+    <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/framework/reset.css">
+    <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/framework/grid.css">
 
     <!--
       - Icons.
      -->
-    <link rel="stylesheet" type="text/css" href="/dist/icons/all.css">
-
-    <!--
-      - Estilos.
-     -->
-    <link rel="stylesheet" type="text/css" href="/dist/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/icons/all.css">
 
     <!--
       - jQuery.
      -->
-    <script type="text/javascript" src="/dist/jquery/jquery.js"></script>
+    <script type="text/javascript" src="<?= env('url'); ?>/dist/jquery/jquery.js"></script>
+
+    <!--
+      - Estilos.
+     -->
+    <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/css/style.css">
 
     <!--
       - Scripts.
      -->
-    <script type="text/javascript" src="/dist/libs/jquery-ui/dist/jquery-ui.js"></script>
+    <script type="text/javascript" src="<?= env('url'); ?>/dist/libs/jquery-ui/dist/jquery-ui.js"></script>
 
 </head>
 <body>
