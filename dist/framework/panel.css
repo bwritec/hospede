@@ -1,8 +1,45 @@
 .panel
 {
-    border-bottom: 2px solid #0072DE;
-    background-color: #3E91FF;
+    margin-bottom: 15px;
     min-height: 45px;
     width: 100%;
 }
 
+.panel-dark
+{
+    border-bottom: 1px solid #CCCCCC;
+    background-color: #000000;
+}
+
+.panel-light
+{
+    border-bottom: 1px solid #CCCCCC;
+    background-color: #F9F9F9;
+}
+
+.panel-brand
+{
+    margin-right: 15px;
+    line-height: 45px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 26px;
+    width: auto;
+}
+
+.panel-brand a
+{
+    text-decoration: none;
+}
+
+.panel-dark .panel-brand,
+.panel-dark .panel-brand a
+{
+    color: #FFFFFF;
+}
+
+.panel-light .panel-brand,
+.panel-light .panel-brand a
+{
+    color: #000000;
+}

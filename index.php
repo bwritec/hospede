@@ -32,7 +32,14 @@
     <!--
       - Icons.
      -->
-    <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/icons/all.css">
+    <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/icons/css/all.css">
+
+    <!--
+      - Fonts.
+     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
 
     <!--
       - jQuery.
@@ -44,18 +51,19 @@
      -->
     <link rel="stylesheet" type="text/css" href="<?= env('url'); ?>/dist/css/style.css">
 
-    <!--
-      - Scripts.
-     -->
-    <script type="text/javascript" src="<?= env('url'); ?>/dist/libs/jquery-ui/dist/jquery-ui.js"></script>
-
 </head>
 <body>
 
-    <div class="panel">
+    <div class="panel panel-light">
         <div class="container">
             <div class="row">
-                <div class="col col-xs-12">
+                <div class="col panel-brand">
+                    <a href="<?= env('url'); ?>/index.php">
+                        <?= env("name"); ?>
+                    </a>
+                </div>
+
+                <div class="col panel-menu">
                     
                 </div>
             </div>
@@ -64,14 +72,6 @@
 
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <?= env("name"); ?>
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
